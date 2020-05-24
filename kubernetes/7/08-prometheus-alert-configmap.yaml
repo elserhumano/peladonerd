@@ -7,7 +7,7 @@ data:
   alertmanager.yml: |-
     global:
       resolve_timeout: 5m
-      slack_api_url: 'https://hooks.slack.com/services/REEMPLAZAR-CON-URL-DEL-WEBHOOK'
+      slack_api_url: 'https://hooks.slack.com/services/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'
   
     route:
       group_by: ['alertname', 'cluster', 'service']
